@@ -1,0 +1,39 @@
+plugins {
+    id("java")
+    id("idea")
+    id("java-library")
+    id("org.jetbrains.kotlin.jvm")
+    id("org.jetbrains.kotlin.plugin.spring")
+}
+
+allprojects { p ->
+    apply plugin: 'java-library'
+    apply plugin: 'idea'
+    apply plugin: 'kotlin'
+    apply plugin: 'kotlin-spring'
+    apply plugin: 'java'
+
+    sourceCompatibility = JavaVersion.VERSION_18
+
+    p.tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+        kotlinOptions {
+            freeCompilerArgs = ['-Xjsr305=strict']
+            apiVersion = "1.7"
+            languageVersion = "1.7"
+            jvmTarget = "18"
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}

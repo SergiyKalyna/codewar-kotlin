@@ -1,0 +1,12 @@
+pluginManagement {
+    plugins {
+        id("java")
+        id("pb-java") version "1.+"
+        id("org.jetbrains.gradle.plugin.idea-ext") version "0.7"
+        id("org.jetbrains.kotlin.jvm") version "1.7.10"
+        id("org.jetbrains.kotlin.plugin.spring") version "1.7.10"
+    }
+}
+
+rootProject.name = 'codewar-kotlin'
+

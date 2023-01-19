@@ -1,0 +1,19 @@
+# IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+# Gradle
+.gradle
+build/
+
+build-info.properties
+
+.vertx/
+
+.DS_Store
+Thumbs.db
+
+!/.idea/icon.png
