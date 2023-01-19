@@ -9,4 +9,5 @@ pluginManagement {
 }
 
 rootProject.name = 'codewar-kotlin'
+include 'task1'
 
