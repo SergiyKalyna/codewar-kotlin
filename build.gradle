@@ -4,7 +4,6 @@ plugins {
     id("java-library")
     id("org.jetbrains.kotlin.jvm")
     id("org.jetbrains.kotlin.plugin.spring")
-    id("application")
 }
 
 allprojects { p ->
@@ -23,9 +22,6 @@ allprojects { p ->
             languageVersion = "1.7"
             jvmTarget = "18"
         }
-    }
-    application{
-        setMainClass("Solution.kt")
     }
 }
 

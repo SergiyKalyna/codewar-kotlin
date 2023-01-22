@@ -1,9 +1,6 @@
 plugins {
-    id("application")
+    id("org.jetbrains.kotlin.jvm")
 }
-
-group = "org.example"
-version = "unspecified"
 
 repositories {
     mavenCentral()
