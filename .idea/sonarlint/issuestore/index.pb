@@ -17,10 +17,6 @@ Q
 ,task3/src/main/kotlin/RomanNumeralDecoder.kt,b/c/bc5bda5c83316ad5fca5b06bbb3b740140f7429b
 ?
 settings.gradle,0/5/05efc8b1657769a27696d478ded1e95f38737233
-B
-task4/build.gradle,0/b/0b205b7dcd6144576c8039d59bbbb965a049b230
-Q
-!task4/src/main/kotlin/Solution.kt,3/3/339568750025aab7fc9fac6de4f39028fab7ec69
 Q
 !task2/src/main/kotlin/Solution.kt,e/8/e8b17616e041142531cea8c55ab946d27fb85bd3
 F
@@ -34,8 +30,6 @@ X
 (gradle/wrapper/gradle-wrapper.properties,f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
 B
 task5/build.gradle,6/9/69be59cb827cb020f88433eaed0376ccd42ab5c9
-Q
-!task5/src/main/kotlin/Solution.kt,7/a/7a260987b418a3908b6bc758ac14af54e33a57dc
 B
 task6/build.gradle,a/a/aa7d51cae0c37d2b7f1d34bbf885ab25e5fec8da
 Q
