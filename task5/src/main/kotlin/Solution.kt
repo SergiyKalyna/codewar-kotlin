@@ -1,3 +1,5 @@
+import java.util.Objects
+
 class Solution {
 
     /*
@@ -12,18 +14,19 @@ class Solution {
             val firstArray = intArrayOf(2, 4, 6, 8)
             val secondArray = intArrayOf(4, 16, 36, 64)
 
-            println(comp(firstArray, secondArray))
+            println(comp(firstArray ?: intArrayOf(), secondArray ?: intArrayOf()))
         }
 
-        private fun comp(firstArray: IntArray?, secondArray: IntArray?): Boolean {
+        private fun comp(firstArray: IntArray, secondArray: IntArray): Boolean {
             if (!checkValidInputArrays(firstArray, secondArray)) return false
 
-            return checkSecondArrayContainsSquareNumbersOfFirstArray(firstArray!!, secondArray!!)
+            return checkSecondArrayContainsSquareNumbersOfFirstArray(
+                firstArray,
+                secondArray
+            )
         }
 
-        private fun checkValidInputArrays(firstArray: IntArray?, secondArray: IntArray?): Boolean {
-            if (firstArray == null || secondArray == null) return false
-
+        private fun checkValidInputArrays(firstArray: IntArray, secondArray: IntArray): Boolean {
             if (firstArray.isEmpty() || secondArray.isEmpty()) return false
 
             if (firstArray.size != secondArray.size) return false
