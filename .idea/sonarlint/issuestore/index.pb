@@ -106,3 +106,15 @@ R
 "task19/src/main/kotlin/Solution.kt,d/f/df4b16b65c846933ea28ecef231fa097b609bd67
 [
 +task20/src/main/kotlin/LastDigitProvider.kt,3/3/33bb249fd4e30b15781970fb2a6fd6982d23d8ae
+C
+task21/build.gradle,a/2/a26e26f895f5578352441d75046c8f1c3f7b3b8b
+R
+"task21/src/main/kotlin/Solution.kt,7/a/7aef4e480d48069328eb6418ea2521ee155a04a7
+\
+,task21/src/main/kotlin/HexStringConverter.kt,4/7/47952a0a7aaadd14f43578f6aece3fa91a1e9469
+C
+task22/build.gradle,a/e/aeebbd9c2bd138c62105e013047a8994f209b547
+R
+"task22/src/main/kotlin/Solution.kt,4/b/4b2d8f152abf1e2d412d65833da3a9390dd45bb0
+C
+task23/build.gradle,4/5/4541a1ef8521ce88ce79c713f04771e326b7a1d7
