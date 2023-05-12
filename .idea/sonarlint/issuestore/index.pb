@@ -15,8 +15,6 @@ Q
 !task3/src/main/kotlin/Solution.kt,b/e/be6f27fe86c551e7c7d61a6482e4efdb8060bf22
 \
 ,task3/src/main/kotlin/RomanNumeralDecoder.kt,b/c/bc5bda5c83316ad5fca5b06bbb3b740140f7429b
-?
-settings.gradle,0/5/05efc8b1657769a27696d478ded1e95f38737233
 Q
 !task2/src/main/kotlin/Solution.kt,e/8/e8b17616e041142531cea8c55ab946d27fb85bd3
 F
@@ -172,3 +170,13 @@ C
 task32/build.gradle,4/4/440993a6afdf85e8a16e8f62912defc981cf4886
 W
 'task32/src/main/kotlin/IpV4Converter.kt,c/e/ce5003646f71599c8ff04b8a8db202d86a44fbdd
+R
+"task32/src/main/kotlin/Solution.kt,d/b/db07cd120287f034fa313f2b1a1e8216046410f8
+C
+task33/build.gradle,a/a/aa71ecb88540e53b7771146ecc27b7aff00396c0
+d
+4task30/src/main/kotlin/RectanglePerimeterProvider.kt,b/9/b9ceae5a82e6c14c9eaa13dd3ad33c59ab89e726
+C
+task28/build.gradle,0/5/05362af2e6c1b6d49c55a71bf1a3fb9c614c85f3
+R
+"task28/src/main/kotlin/Solution.kt,1/a/1a322fd28ba29209ea3cef23b17060d4d0f688cb
